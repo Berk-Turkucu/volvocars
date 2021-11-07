@@ -1,4 +1,4 @@
-@wip
+@done
 Feature: Volvocars
 
   Background:
@@ -19,7 +19,7 @@ Feature: Volvocars
     Then user should be able on the home page
     And user returns volvo-million-more page
 
-  @wip2
+
   Scenario: Control Our Cars module
     When user clicks the Our Cars button
     Then user should see the "Electric", "Hybrids" and "Mild hybrids" options
